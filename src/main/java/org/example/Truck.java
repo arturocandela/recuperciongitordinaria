@@ -2,8 +2,13 @@ package org.example;
 
 public class Truck {
 
-    public Truck(){
+    private final String plateCode;
 
+    public Truck(String plateCode){
+        this.plateCode = plateCode;
     }
 
+    public String getPlateCode() {
+        return plateCode;
+    }
 }
